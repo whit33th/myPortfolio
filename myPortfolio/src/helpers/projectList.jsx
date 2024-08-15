@@ -27,7 +27,8 @@ const projects = [
 		title: "Netflix",
 		skills: "React, JS, SCSS, Youtube API",
 		img: [Netflix01, Netflix02, Netflix03, Netflix04, Netflix05],
-		gitHubLink: 'https://github.com/whit33th/Netflix'
+		gitHubLink: 'https://github.com/whit33th/Netflix',
+		www: 'https://dkaminskyi-streaming-platform.netlify.app'
 	},
 	{
 		title: "Fashion store", 

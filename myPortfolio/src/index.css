@@ -273,7 +273,13 @@ body {
 
 
 /* Project details */
-
+.linksDiv{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	justify-content: center;
+}
 .project-details {
 	margin: 0 auto;
 	max-width: 865px;
