@@ -8,7 +8,7 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 
 // import required modules
-import { Pagination } from 'swiper/modules'
+
 import SwiperVetical from '../components/Swiper/Swiper'
 import BtnLinkWeb from '../components/BtnLinkWeb/BtnLinkWeb'
 
@@ -18,7 +18,6 @@ function Project() {
 	const { id } = useParams()
 	const project = projects[id]
 
-	console.log(project)
 	return (
 		<main className="section">
 			<div className="container">

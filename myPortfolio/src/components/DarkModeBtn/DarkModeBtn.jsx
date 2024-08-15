@@ -18,7 +18,7 @@ function DarkModeBtn() {
 		setDarkMode((currentValue) =>
 			currentValue === "light" ? "dark" : "light"
 		)
-		console.log(darkMode)
+	
 
 	}
 
