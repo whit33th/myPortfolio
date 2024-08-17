@@ -25,7 +25,7 @@ import Reedee04 from './../assets/img/projects/Reedee/4.jpg'
 const projects = [
 	{
 		title: "Netflix",
-		skills: "React, JS, SCSS, Youtube API",
+		skills: "React, JS, Zustand, SCSS, Youtube API",
 		img: [Netflix01, Netflix02, Netflix03, Netflix04, Netflix05],
 		gitHubLink: 'https://github.com/whit33th/Netflix',
 		www: 'https://dkaminskyi-streaming-platform.netlify.app'
