@@ -1,7 +1,4 @@
-import React from 'react'
-import vk from '../assets/img/icons/vk.svg'
-import instagram from '../assets/img/icons/instagram.svg'
-import twitter from '../assets/img/icons/twitter.svg'
+import telegram from '../assets/img/icons/telegram.svg'
 import gitHub from '../assets/img/icons/gitHub.svg'
 import linkedIn from '../assets/img/icons/linkedIn.svg'
 
@@ -11,13 +8,10 @@ function Footer() {
         <div className="container">
             <div className="footer__wrapper">
                 <ul className="social">
-                    <li className="social__item"><a href="#!"><img src={vk} alt="Link"/></a></li>
-                    <li className="social__item"><a href="#!"><img src={instagram} alt="Link"/></a></li>
-                    <li className="social__item"><a href="#!"><img src={twitter} alt="Link"/></a></li>
-                    <li className="social__item"><a href="#!"><img src={gitHub} alt="Link"/></a></li>
-                    <li className="social__item"><a href="#!"><img src={linkedIn} alt="Link"/></a></li>
-                </ul>
-            
+                    <li className="social__item"><a href="https://github.com/whit33th"><img src={gitHub} alt="Link"/></a></li>
+                    <li className="social__item"><a href="https://www.linkedin.com/in/whit33th"><img src={linkedIn} alt="Link"/></a></li>
+                    <li className="social__item"><a href="https://t.me/whit33th"><img src={telegram} alt="Link"/></a></li>
+                </ul>           
             </div>
         </div>
     </footer>
