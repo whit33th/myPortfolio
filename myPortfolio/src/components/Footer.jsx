@@ -8,7 +8,7 @@ function Footer() {
         <div className="container">
             <div className="footer__wrapper">
                 <ul className="social">
-                    <li className="social__item"><a href="https://github.com/whit33th"><img src={gitHub} alt="Link"/></a></li>
+                    <li style={{width: '38px', height: '38px', filter: 'invert(1)'}} className="social__item"><a href="https://github.com/whit33th"><img src={gitHub} alt="Link"/></a></li>
                     <li className="social__item"><a href="https://www.linkedin.com/in/whit33th"><img src={linkedIn} alt="Link"/></a></li>
                     <li className="social__item"><a href="https://t.me/whit33th"><img src={telegram} alt="Link"/></a></li>
                 </ul>           
