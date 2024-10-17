@@ -1,0 +1,27 @@
+.animatedGradientPlaceholder {
+	width: 38px;
+	height: 38px;
+	background: linear-gradient(270deg, 
+    #f0f0f0, /* Светло-серый */
+    #d9d9d9, /* Средний серый */
+    #bfbfbf, /* Темно-серый */
+    #d9d9d9, /* Средний серый */
+    #f0f0f0  /* Светло-серый */
+  ); 
+
+	background-size: 400% 400%; /* Для анимации */
+	animation: gradientAnimation 1s ease infinite; /* Анимация */
+	border-radius: 4px; /* Закругление углов (по желанию) */
+}
+
+@keyframes gradientAnimation {
+	0% {
+		background-position: 0% 50%; /* Начальная позиция */
+	}
+	50% {
+		background-position: 100% 50%; /* Позиция в середине анимации */
+	}
+	100% {
+		background-position: 0% 50%; /* Возвращение к начальной позиции */
+	}
+}
