@@ -1,4 +1,3 @@
-import React from 'react';
 import telegram from '../assets/img/icons/telegram.svg';
 import gitHub from '../assets/img/icons/gitHub.svg';
 import linkedIn from '../assets/img/icons/linkedIn.svg';
@@ -6,7 +5,6 @@ import LazyLoad from 'react-lazyload';
 import styles from './Footer.module.css';
 
 function Footer() {
-  // Плейсхолдер с анимированным градиентом
   const animatedPlaceholder = (
     <div className={styles.animatedGradientPlaceholder}></div>
   );

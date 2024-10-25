@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-
 import Footer from './components/Footer'
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home'
@@ -8,9 +7,7 @@ import Projects from './pages/Projects'
 import Project from './pages/Project'
 import ScrollToTop from './utils/scrollToTop'
 
-
 function App() {
-
 
   return (
     <div className='App'>
@@ -25,7 +22,7 @@ function App() {
           <Route path="/project/:id" element= { <Project/> } />
           <Route path="/contacts" element={ <Contacts/> } />
         </Routes>  
-        
+    
         <Footer />
 
       </Router>

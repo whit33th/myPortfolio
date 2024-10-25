@@ -11,8 +11,7 @@ function Projects() {
                 <h2 className="title-1">Projects</h2>
                 <ul className="projects">
                     {
-                        projects.map((project, index) => 
-                            
+                        projects.map((project, index) =>   
                         <Project key={index} 
                         title={project.title} 
                         img={project.img[0]}
